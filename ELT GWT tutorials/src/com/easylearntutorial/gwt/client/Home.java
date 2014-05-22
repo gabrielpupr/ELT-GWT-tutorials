@@ -15,7 +15,7 @@ public class Home implements EntryPoint {
 	public void onModuleLoad() {
 		// TODO Auto-generated method stub
 		//RootPanel.get().add(msg);
-		//RootPanel.get().add(btn);
+		//RootPanel.get().add(btn); Hi :)
 		form.setText("hey!");;
 		RootPanel.get().add(form);
 		
