@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.FlexTable-Header{
+		background-color: #ff00cc;
+	
+}
+	</ui:style>
+	<g:HTMLPanel><link rel="stylesheet" href="HelloWorld.css" type="text/css"/>
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

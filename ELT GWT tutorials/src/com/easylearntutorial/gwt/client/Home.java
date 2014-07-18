@@ -11,6 +11,8 @@ public class Home implements EntryPoint {
 	//private Label msg = new Label("Hello, world3!");
 	//private Button btn = new Button("click me");
 	private LittleForm form = new LittleForm();
+	private ItemsFlexTable ftable = new ItemsFlexTable();
+	
 	@Override
 	public void onModuleLoad() {
 		// TODO Auto-generated method stub
@@ -18,6 +20,8 @@ public class Home implements EntryPoint {
 		//RootPanel.get().add(btn); Hi :)
 		form.setText("hey!");;
 		RootPanel.get().add(form);
+		//ftable
+		RootPanel.get().add(ftable.getFlexTable());
 		
 	}
 
